@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONSTRUCTION COMPANY</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Dosis:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="construction_logo.png" alt=""></a>
+            <div class="navlinks" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a>
+                    <li><a href="">SERVICES</a>
+                    <li><a href="">PROJECTS</a>
+                    <li><a href="">ABOUT US</a>
+                    <li><a href="">CONTACT US</a>
+                    </li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>CONSTRUCTION COMPANY</h1>
+            <p>creating amazing structures with our skillfull engineers</p>
+            <a href="" class="hero-btn">VISIT US TO KNOW MORE</a>
+        </div>
+    </section>
+
+<!--SERVICES-->
+
+<section class="services">
+    <h1>OUR SERVICES</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+    <div class="row">
+        <div class="service-col">
+            <h3>SERVICE #1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit distinctio doloribus culpa reiciendis earum similique natus aliquid veniam, nihil, consectetur commodi illum nostrum soluta ratione!</p>
+        </div>
+        <div class="service-col">
+            <h3>SERVICE #2</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit distinctio doloribus culpa reiciendis earum similique natus aliquid veniam, nihil, consectetur commodi illum nostrum soluta ratione!</p>
+        </div>
+        <div class="service-col">
+            <h3>SERVICE #3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit distinctio doloribus culpa reiciendis earum similique natus aliquid veniam, nihil, consectetur commodi illum nostrum soluta ratione!</p>
+        </div>
+    </div>
+</section>
+
+<!---projects-->
+
+<section class="projects">
+    <h1>OUR PREVIOUS PROJECTS</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+    <div class="row">
+        <div class="project-col">
+            <img src="construction_project1.jpg" alt="">
+            <div class="layer">
+                <h3>PRPOJECT #1</h3>
+            </div>
+        </div>
+        <div class="project-col">
+            <img src="construction_project2.jpg" alt="">
+            <div class="layer">
+                <h3>PRPOJECT #2</h3>
+            </div>
+        </div>
+        <div class="project-col">
+            <img src="construction_project3.jpg" alt="">
+            <div class="layer">
+                <h3>PRPOJECT #3</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!---contact us-->
+
+<section class="contact">
+    <h1>CONTACT US TO HELP YOU BUILD YOUR DREAMS</h1>
+    <a href="" class="hero-btn">CONTACT US</a>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<!--java script for menu bar-->
+    <script>
+
+        var navLinks = document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
+</html>
